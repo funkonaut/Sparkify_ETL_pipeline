@@ -42,7 +42,8 @@ user\_id key.
 
 ## Example SQL Queries
 
-[Optional] Provide example queries and results for song play analysis.
+Get amount of times a song was played  
+`SELECT COUNT(*) FROM songplays WHERE song_id='song_id'`
 
 ## Installation and Running
 
@@ -64,10 +65,10 @@ To run the container:
 `docker run -d --name postgres-student-container -p 5431:5432 
 postgres-student-image`
 
-The docker code was adapted from ![a project referenced in the project FAQ](https://github.com/kenhanscombe/project-postgres)
+The docker code was adapted from [a project referenced in the project FAQ](https://github.com/kenhanscombe/project-postgres)
 
 Once both docker and the python virtual environment is setup
 you can run 
-`python create_database.py` and
+`python create_tables.py` and
 `python etl.py`
 to create and populate the sparkify database.
