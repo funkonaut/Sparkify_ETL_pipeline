@@ -4,7 +4,7 @@
 
 ## Schema Design
 
-![database schema](/sparkifydb.jpg)
+![database schema](/sparkify_db.jpg)
 
 Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.  
 State and justify your database schema design and ETL pipeline.
